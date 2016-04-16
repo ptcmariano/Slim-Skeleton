@@ -9,12 +9,17 @@
             "name": "Josh Lockhart",
             "email": "info@joshlockhart.com",
             "homepage": "http://www.joshlockhart.com/"
+        },
+        {
+            "name": "Paulo Mariano",
+            "email": "paulo.tiago.pt@gmail.com",
+            "homepage": "https://github.com/ptcmariano"
         }
     ],
     "require": {
         "php": ">=5.5.0",
         "slim/slim": "^3.1",
-        "slim/php-view": "^2.0",
-        "monolog/monolog": "^1.17"
+        "slim/twig-view": "^2.0",
+        "illuminate/database": "~5.1"
     }
 }

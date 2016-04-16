@@ -1,3 +1,8 @@
+# Basic structure of php slim framework
+----
+* Using controller class + twig render [http://www.slimframework.com/docs/objects/router.html]
+* Using slim 3 + eloquent [http://www.slimframework.com/docs/cookbook/database-eloquent.html]
+
 # Slim Framework 3 Skeleton Application
 
 Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.

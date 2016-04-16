@@ -1,10 +1,8 @@
 <?php
-// Routes
-
-$app->get('/[{name}]', function ($request, $response, $args) {
-    // Sample log message
-    $this->logger->info("Slim-Skeleton '/' route");
-
-    // Render index view
-    return $this->renderer->render($response, 'index.phtml', $args);
+// load classes
+spl_autoload_register(function ($class_name) {
+    include $class_name . '.php';
 });
+
+// Routes
+$app->get('/[{name}]', '\App\Controller\MyController:hello');
